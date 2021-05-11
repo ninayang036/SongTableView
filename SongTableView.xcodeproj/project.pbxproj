@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		ACB770C62648CD4E006436D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB770C52648CD4E006436D7 /* AppDelegate.swift */; };
 		ACB770C82648CD4E006436D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB770C72648CD4E006436D7 /* SceneDelegate.swift */; };
-		ACB770CA2648CD4E006436D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB770C92648CD4E006436D7 /* ViewController.swift */; };
 		ACB770CD2648CD4E006436D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACB770CB2648CD4E006436D7 /* Main.storyboard */; };
 		ACB770CF2648CD54006436D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACB770CE2648CD54006436D7 /* Assets.xcassets */; };
 		ACB770D22648CD54006436D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACB770D02648CD54006436D7 /* LaunchScreen.storyboard */; };
+		ACB770DA2648CD7E006436D7 /* SongTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB770D92648CD7E006436D7 /* SongTableViewController.swift */; };
+		ACB770DC2648CDB5006436D7 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB770DB2648CDB5006436D7 /* Song.swift */; };
+		ACB770DE2648D7DC006436D7 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB770DD2648D7DC006436D7 /* DetailViewController.swift */; };
+		ACB770E02648DCB4006436D7 /* SongTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB770DF2648DCB4006436D7 /* SongTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ACB770C22648CD4E006436D7 /* SongTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SongTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACB770C52648CD4E006436D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACB770C72648CD4E006436D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ACB770C92648CD4E006436D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ACB770CC2648CD4E006436D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ACB770CE2648CD54006436D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACB770D12648CD54006436D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACB770D32648CD54006436D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACB770D92648CD7E006436D7 /* SongTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongTableViewController.swift; sourceTree = "<group>"; };
+		ACB770DB2648CDB5006436D7 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		ACB770DD2648D7DC006436D7 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		ACB770DF2648DCB4006436D7 /* SongTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +64,11 @@
 			children = (
 				ACB770C52648CD4E006436D7 /* AppDelegate.swift */,
 				ACB770C72648CD4E006436D7 /* SceneDelegate.swift */,
-				ACB770C92648CD4E006436D7 /* ViewController.swift */,
+				ACB770DD2648D7DC006436D7 /* DetailViewController.swift */,
 				ACB770CB2648CD4E006436D7 /* Main.storyboard */,
+				ACB770DF2648DCB4006436D7 /* SongTableViewCell.swift */,
+				ACB770DB2648CDB5006436D7 /* Song.swift */,
+				ACB770D92648CD7E006436D7 /* SongTableViewController.swift */,
 				ACB770CE2648CD54006436D7 /* Assets.xcassets */,
 				ACB770D02648CD54006436D7 /* LaunchScreen.storyboard */,
 				ACB770D32648CD54006436D7 /* Info.plist */,
@@ -137,9 +146,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACB770CA2648CD4E006436D7 /* ViewController.swift in Sources */,
+				ACB770E02648DCB4006436D7 /* SongTableViewCell.swift in Sources */,
 				ACB770C62648CD4E006436D7 /* AppDelegate.swift in Sources */,
+				ACB770DA2648CD7E006436D7 /* SongTableViewController.swift in Sources */,
+				ACB770DE2648D7DC006436D7 /* DetailViewController.swift in Sources */,
 				ACB770C82648CD4E006436D7 /* SceneDelegate.swift in Sources */,
+				ACB770DC2648CDB5006436D7 /* Song.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +228,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +283,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -287,6 +299,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57ZG885DM5;
 				INFOPLIST_FILE = SongTableView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,6 +318,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57ZG885DM5;
 				INFOPLIST_FILE = SongTableView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
